@@ -1,0 +1,93 @@
+		div.wenxue{
+			height: 150px;
+			background: darksalmon;
+			text-align: center;
+		}
+				
+		span{
+			font-size: 40px;
+			line-height: 150px;
+			color: white;
+			text-align: center;			
+			transition: margin-right 5s;
+			
+		}
+		
+		div.wenxue:hover span{
+			margin-right: 35px;	
+		}
+		
+		.qin{
+			height: 400px;
+		}
+		ul{
+			width: 960px;
+			height: 300px;
+			margin: 0 auto;
+			margin-top: 30px;
+
+			list-style: none;
+			overflow: hidden;
+		}
+		ul li{
+			width: 160px;
+			height: 300px;
+			float: left;						
+			transition: width 1s;
+		}
+		
+		ul li img{
+			height: 300px;
+		}
+		
+		ul:hover li{
+			width: 108px;
+		}
+		
+		ul li:hover{
+			width: 420px;
+		}
+		
+		.quan{
+			height: 350px;
+		}
+		.tu1{
+			height: 350px;
+			float: left;
+			padding-left: 100px;
+			
+		}
+		.tu1 img{
+			height: 250px;
+		}
+		.zi{
+			float: left;
+			padding-left: 40px;
+		}
+		.zi1d{
+			padding-left: 40px;
+			line-height: 20px;
+			padding-top: -110px;
+		}
+		.zi2{
+			width: 800px;
+		}
+		.zi3 .zi31{
+			float: left;
+		}
+		.zi3 .zi32{
+			padding-left: 50px;
+			padding-top: 12px;
+			float: left;
+		}
+		.zi32 h3{
+		margin-top: -50px;
+			size: 30px;
+		}
+		
+		.zuihou p{
+			text-align: center;
+			size: 20px;
+			color: blue;
+		}
+		

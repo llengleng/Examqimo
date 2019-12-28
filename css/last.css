@@ -1,0 +1,39 @@
+.zong{
+	background:url(../img/banner-1.jpg) ;
+}
+.title h1{
+	height: 100px;
+	color: #DC143C;
+	padding-left: 500px;
+	padding-top: 10px;
+}
+
+    .tu{
+		width: 50px;
+		height: 50px;
+		float: left;
+		margin-top: -60px;
+		padding-left: 40px;
+		
+		animation-name:myheart ;
+		animation-duration: 2s;
+		
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	}
+	@keyframes myheart{
+		from{transform: scale(0.2);}
+		to{transform: scale(0.1);}
+	}
+	
+
+img{
+	width: 700px;
+	height: 300px;	
+}
+.foot{
+	color: gainsboro;
+	width: 700px;
+	padding-left: 280px;
+	line-height: 50px;
+}

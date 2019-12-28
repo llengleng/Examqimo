@@ -1,0 +1,87 @@
+                   body{
+					   background:url(../img/page-bg.jpg);
+						perspective: 500px;
+					}
+					
+					ul {
+						width: 200px;
+						height: 200px;
+						margin: 100px auto;
+						position: relative;
+						
+						transform-style: preserve-3d;
+						
+						/* transform: rotateY(0deg) rotateX(0deg); */
+						animation: adrot 16s linear infinite;
+					}
+					
+					ul li {
+						width: 200px;
+						height: 200px;
+						font-size: 50px;
+						line-height: 200px;
+						text-align: center;
+						list-style: none;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+					ul li img{
+						/* 父元素被拉伸，子元素也会跟着被拉伸 */
+						width: 200px;
+						height: 200px;
+					}
+		
+					ul li:nth-child(1) {
+						/* 左 */
+						/* background: red; */
+						transform: translateX(-100px) rotateY(-90deg) translateZ(40px);
+					}
+						/* 右 */
+					li:nth-child(2) {
+						/* background: green; */
+						transform: translateX(100px) rotateY(90deg) translateZ(40px);
+					}
+					
+					  /* 上 */
+					li:nth-child(3) {
+						/* background: blue; */
+						transform: translateY(-100px) rotateX(90deg) scale(1.4,1);
+					}
+						
+						/* 下 */
+					li:nth-child(4) {
+						/* background: purple; */
+						transform: translateY(100px) rotateX(-90deg) scale(1.4,1);
+					}
+						
+						/* 前 */
+					li:nth-child(5) {
+						/* background: yellow; */
+						transform: translateZ(100px) scale(1.4,1);
+					}
+		
+					li:nth-child(6) {
+						/* background: pink; */
+						transform: translateZ(-100px) rotateX(180deg) scale(1.4,1);				
+					}
+					
+					@keyframes adrot{
+						from{
+							transform: rotateX(0deg);
+						}
+						to{
+							transform: rotateX(360deg);
+						}
+					}
+					
+					h1{
+						padding-left: 100px;
+					}
+					
+					p{
+						color: gainsboro;
+						width: 700px;
+						padding-left: 280px;
+						line-height: 50px;
+					}
